@@ -2,6 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
+##This function will create a cache matrix to store the most recent value of inverse of the matrix created.
 
 makeCacheMatrix <- function(x = matrix()) {
 		inv<- NULL
@@ -23,6 +24,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+# This function will first check whether the recent inverse value exists in the given code if not then it computes and stores it in 
+## the cache and displays it, if a value already exists then it returns the most recent value stored in cache.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
